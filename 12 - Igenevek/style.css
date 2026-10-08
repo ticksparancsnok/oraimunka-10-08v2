@@ -1,0 +1,22 @@
+  body { background: #ffffff; color: #222; font-family: Arial, Helvetica, sans-serif; }
+  h1 { text-align: center; }
+
+  /* 3. a teljes táblázat vízszintesen középre */
+  table { margin: 0 auto; border-collapse: collapse; }
+
+  /* 2. minden cella tartalma vízszintesen középre */
+  th, td { text-align: center; border: 1px solid #333; padding: 10px 16px; }
+
+  /* 4. első sor: világosszürke háttér */
+  tr.sor1 th { background: #d3d3d3; color: #222; font-size: 1.3em; }
+
+  /* 5. második sor: sötétszürke háttér, világos betűszín */
+  tr.sor2 th { background: #4a4a4a; color: #f5f5f5; }
+
+  /* 6. harmadik sor: ugyanaz a világos betűszín, cellánként más háttér */
+  tr.sor3 td { color: #f5f5f5; font-weight: bold; }
+  tr.sor3 td:nth-child(1) { background: #c0392b; }
+  tr.sor3 td:nth-child(2) { background: #b9560b; }
+  tr.sor3 td:nth-child(3) { background: #1e8449; }
+  tr.sor3 td:nth-child(4) { background: #1f6fa8; }
+  tr.sor3 td:nth-child(5) { background: #7d3c98; }

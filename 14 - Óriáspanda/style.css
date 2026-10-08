@@ -1,0 +1,15 @@
+body {
+    max-width: 660px;
+}
+
+.kiemelt {
+    width: 620px;
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#panda {
+    border: 10px double darkgreen;
+    border-radius: 20px;
+}
